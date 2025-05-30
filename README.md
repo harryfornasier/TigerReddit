@@ -15,7 +15,7 @@ A Vibe-coded native Reddit client for Mac OS X 10.4 Tiger, built with Objective-
 
 ## System Requirements
 
-- Mac OS X 10.4 Tiger (PowerPC G4/G5 or Intel)
+- Mac OS X 10.4 Tiger (PowerPC G4/G5)
 - GCC 4.0 (included with Xcode 2.5 or Developer Tools)
 - Python 3.11
 - Internet connection
@@ -99,6 +99,10 @@ The Makefile will (attempt to) automatically:
 - Download yt-dlp
 - Bundle Python scripts into the app
 - Create a complete .app bundle
+
+cJSON and yt-dlp will likely fail to download on Tiger due to TLS issues. Download the files from source and uncompress to the folder you're building in.
+
+Run the app in a folder alongside the files it builds in the process - this is a current bug that needs fixing
 
 ## Configuration
 
