@@ -1,6 +1,6 @@
 # TigerReddit
 
-A native Reddit client for Mac OS X 10.4 Tiger, built with Objective-C and Python 3.11. Features image viewing, video downloading, comment browsing, and modern Reddit API support on vintage PowerPC and Intel Macs.
+A Vibe-coded native Reddit client for Mac OS X 10.4 Tiger, built with Objective-C and Python 3.11. Features image viewing, video downloading, comment browsing, and modern Reddit API support on vintage PowerPC and Intel Macs.
 
 
 ## Features
