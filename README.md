@@ -119,13 +119,6 @@ The app automatically searches for Python 3.11 in these locations:
 
 To include Python script and yt-dlp in your app bundle:
 
-1. **Add to Xcode Resources:**
-   - Drag `reddit_fetcher.py` to project
-   - Drag `yt-dlp` or `yt-dlp-master` folder to project
-
-2. **The app will look for bundled resources in:**
-   - `[[NSBundle mainBundle] resourcePath]`
-
 ## Usage
 
 ### Basic Navigation
@@ -139,7 +132,7 @@ To include Python script and yt-dlp in your app bundle:
 
 - **🖼️ Images** - Click "View Image" to download to Desktop
 - **🎥 Videos** - Click "View Image" → Choose download or browser
-- **🔗 Articles** - **Note: Cannot be opened directly from app - URLs are shown only**
+- **🔗 Articles** - **Note: Cannot be opened directly from app - This should be fixed**
 - **💬 Text Posts** - Click "View Image" to read content
 - **📦 Galleries** - **Note: Only downloads first image, not entire gallery**
 
